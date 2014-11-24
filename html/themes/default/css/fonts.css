@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Regular Cantarell */
+@font-face {
+	font-family: Cantarell;
+	src: url('../fonts/Cantarell-Regular.otf');
+
+}
+
+/* Bold Cantarell */
+@font-face {
+	font-family: Cantarell;
+	src: url('../fonts/Cantarell-Bold.otf');
+	font-weight: bold;
+
+}

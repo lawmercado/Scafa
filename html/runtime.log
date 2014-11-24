@@ -1,0 +1,154 @@
+INFO:  AEEEEEEEEEE
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                WHERE
+                        a.id_aluno = 'oie'
+                        OR LOWER(a.nomealuno) LIKE '%oie%'
+                        OR a.numeromatricula = 'oie'
+                        OR DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') LIKE 'oie'
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                WHERE
+                        a.id_aluno = 'Luís Augusto'
+                        OR LOWER(a.nomealuno) LIKE '%Luís Augusto%'
+                        OR a.numeromatricula = 'Luís Augusto'
+                        OR DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') LIKE 'Luís Augusto'
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                WHERE
+                        a.id_aluno = '2'
+                        OR LOWER(a.nomealuno) LIKE '%2%'
+                        OR a.numeromatricula = '2'
+                        OR DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') LIKE '2'
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                WHERE
+                        a.id_aluno = '12/11/2014'
+                        OR LOWER(a.nomealuno) LIKE '%12/11/2014%'
+                        OR a.numeromatricula = '12/11/2014'
+                        OR DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') LIKE '12/11/2014'
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                WHERE
+                        a.id_aluno = '12/11/2014'
+                        OR LOWER(a.nomealuno) LIKE '%12/11/2014%'
+                        OR a.numeromatricula = '12/11/2014'
+                        OR DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') LIKE '12/11/2014'%
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                WHERE
+                        a.id_aluno = '12/11/2014'
+                        OR LOWER(a.nomealuno) LIKE '%12/11/2014%'
+                        OR a.numeromatricula = '12/11/2014'
+                        OR DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') LIKE '12/11/2014%'
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                WHERE
+                        a.id_aluno = '2'
+                        OR LOWER(a.nomealuno) LIKE '%2%'
+                        OR a.numeromatricula = '2'
+                        OR DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') LIKE '2%'
+                ORDER BY a.id_aluno
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                
+                ORDER BY a.id_aluno
+ERRO:  
+ERRO:  SELECT
+                    a.id_aluno as Id,
+                    a.nomealuno as Nome,
+                    a.numeromatricula as Matrícula,
+                    DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') as Tempo
+                FROM Entradas o
+                INNER JOIN Alunos a
+                    ON(a.id_aluno = o.id_aluno)
+                WHERE
+                        a.id_aluno = '2'
+                        OR LOWER(a.nomealuno) LIKE '%2%'
+                        OR a.numeromatricula = '2'
+                        OR DATE_FORMAT(o.tempo, '%d/%m/%Y - %H:%i') LIKE '2%'
+                ORDER BY a.id_aluno
+ERRO:  
+ERRO:  
+ERRO:  
+ERRO:  
+ERRO:  
+ERRO:  
+ERRO:  
+ERRO:  
+ERRO:  
+ERRO:  
